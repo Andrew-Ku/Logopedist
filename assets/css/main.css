@@ -1278,7 +1278,7 @@
 				background: #3B4346 url("images/bg01.jpg");
 				border-bottom: solid 1px #272d30;
 				box-shadow: inset 0px -1px 0px 0px #51575a;
-				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
+				text-shadow: -1px -1px 1px rgba(1, 0, 0, 0.75);
 			}
 
 			.subpage #header-wrapper {
@@ -1347,7 +1347,9 @@
 				border-top: solid 1px #222628;
 				box-shadow: inset 0px 1px 0px 0px #3e484a;
 				padding: 35px 0 35px 0;
-				color: #fff;
+				color: #5E6B1E;
+                background-color: #CAE641;              
+                
 			}
 
 				#banner .bordered-feature-image {
@@ -1530,6 +1532,12 @@
 	#navPanel, #titleBar {
 		display: none;
 	}
+
+/*Мои дополнения*/
+.cursive{
+    font-style: italic;
+}
+
 
 	@media screen and (max-width: 736px) {
 
